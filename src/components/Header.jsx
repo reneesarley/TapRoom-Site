@@ -1,9 +1,12 @@
-import React from './react';
+import React from 'react';
 
 function Header(){
   return (
-    <p>Header is working</p>
+    <div>
+      <h1>The Tap Room</h1>
+      <nav>Our Beers | About Us</nav>
+    </div>
   );
 }
 
-export default Header; 
+export default Header;

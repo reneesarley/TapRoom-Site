@@ -1,15 +1,16 @@
 import React from 'react';
 import Header from './Header'
-import { Swtich, Route } from 'react-router-dom'
+import { Switch, Route } from 'react-router-dom';
+import KegList from './KegList';
 
 
 function App(){
   return (
     <div>
-    //  <Header/> 
-    <Swtich>
-      // <Route exact path='/' <HomeComponent/></Route>
-    <Switch/>
+     <Header/>
+    <Switch>
+      <Route exact path ='/' component={KegList}/>
+    </Switch>
     </div>
   );
 }
