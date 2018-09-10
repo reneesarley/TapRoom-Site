@@ -1,18 +1,31 @@
 import React from 'react';
-import Header from './Header'
+import Header from './Header';
 import { Switch, Route } from 'react-router-dom';
+// import { v4 } from 'uuid';
 import KegList from './KegList';
 
 
-function App(){
-  return (
-    <div>
-     <Header/>
-    <Switch>
-      <Route exact path ='/' component={KegList}/>
-    </Switch>
-    </div>
-  );
+
+class App extends React.Component {
+  constructor(props){
+    super(props);
+    console.log(props);
+    // this.state= {
+    //   masterKegList: {},
+    //   selectedKeg: null
+    // };
+  }
+
+  render(){
+    return (
+      <div>
+        <Header/>
+        <Switch>
+          <Route exact path ='/' component={KegList}/>
+        </Switch>
+      </div>
+    );
+  }
 }
 
 export default App;
