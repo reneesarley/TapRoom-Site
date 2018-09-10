@@ -22,6 +22,7 @@ class App extends React.Component {
         <Header/>
         <Switch>
           <Route exact path ='/' component={KegList}/>
+          <Route exact path='/admin' component ={Admin}>
         </Switch>
       </div>
     );

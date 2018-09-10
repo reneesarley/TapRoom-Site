@@ -8,11 +8,13 @@
 
 _Site will show all kegs available at the tap room with details for each keg. Employees will be able to update information on the kegs and sell beers._
 
+### React vs Angular
+_React components seem much easier to implement than Angular components_
+
 
 ## Setup/Installation Requirements
 
 * _Download project from the GitHub repo here: https://github.com/reneesarley/TapRoom-Site.git_
-* __
 
 ## User Stories
 
