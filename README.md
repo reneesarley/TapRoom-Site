@@ -11,7 +11,7 @@ _Site will show all kegs available at the tap room with details for each keg. Em
 
 ## Setup/Installation Requirements
 
-* _Download project from the GitHub repo here:_
+* _Download project from the GitHub repo here: https://github.com/reneesarley/TapRoom-Site.git_
 * __
 
 ## User Stories
